@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript in Body</h2>
+
+<p id="1">A Paragraph.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction()
+{
+document.getElementById("1").innerHTML="Para Changed.";
+}
+</script>
+
+</body>
+</html> 
