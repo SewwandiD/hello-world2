@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The var Keyword Creates Variables</h2>
+
+<p id="demo"></p>
+
+<script>
+var x, y;
+var a,b;
+a=7+6;
+b=a*4;
+document.getElementById("demo").innerHTML=b;
+</script>
+
+</body>
+</html>
